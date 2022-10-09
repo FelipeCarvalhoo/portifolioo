@@ -1,0 +1,399 @@
+body,html {
+   width:100%;
+    height:100%;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+header {
+    display:flex;
+    justify-content:space-between;
+    padding: 20px;
+    align-items:center;
+    position:fixed;
+    right:0;
+    left:0;
+    top:0;
+}
+header .logo {
+    font-size: 20px;
+    font-weight:bold;
+}
+header .menu {
+    width:40px;
+    height:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    cursor:pointer;
+}
+.menu .menu-line {
+    height:2px;
+    background-color:#333;
+}
+.container {
+    display:flex;
+    height:100vh;
+}
+.container .left-side{
+    background-color:#2a1c2b;
+    flex:1;
+    display:flex;
+    align-items:center;
+    background-color:#0c4208;
+}
+
+
+.info {
+    color:#FFF;
+    padding: 20px 30px;
+}
+.info .profession {
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:19px;
+}
+.container .info .name {
+    font-size:80px;
+    font-weight: bold;
+    margin-top:10px;
+    margin-bottom:30px;
+}
+.info .buttons a {
+    display:inline-block;
+    background-color: #FFF;
+    color: #709a5c;
+    padding:20px 40px;
+    font-size:16px;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-weight:bold;
+    box-shadow: 0px 0px 10px #111;
+    border-radius: 5px;
+    margin-right:10px;
+}
+.info .buttons a:hover {
+    opacity: 0.8;
+}
+.info .buttons a.light {
+
+    color:#000;
+    background-color:#0c4208;
+}
+.container .right-side {
+    background-color:#0000FF;
+    flex:1;
+    background-image: url(../image/minha-picture.jpg);
+    background-size: cover;
+    position:center top;
+}
+footer {
+    position:fixed;
+    right:0;
+    left:0;
+    bottom:0;
+    padding: 20px;
+    color:#FFF;
+    font-size:13px;
+}
+footer a {
+    color:#111;
+}
+.mmenu {
+    height:100vh;
+    position:absolute;
+    z-index: 999;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    display:flex;
+}
+.new-window {
+    width: 100vw;
+    height:100vh;
+    position:absolute;
+    display:none;
+    background-color:#FFF;
+    top:0;
+    flex-direction:column;
+
+}
+.new-header{
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top:10px;
+}
+.new-header .menu {
+    width:40px;
+    height:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    cursor:pointer;
+}
+.new-header .menu-line {
+    height:2px;
+    background-color:black;
+}
+
+
+.left_voltar{
+    flex:1;
+    /*background-color: yellow;*/
+}
+
+.menu-right{
+    
+    flex:1;
+    display:flex;
+    flex-direction: column;
+}
+.menuu {
+height: 50px;
+display: flex;
+}
+.menu1{
+    flex:1;
+    /*background-color: #0000FF;*/
+}
+.menu2{
+    flex:1;
+   /* background-color: #0000FF;*/
+}
+.menu3{
+    flex:1;
+}
+.linePrincipal {
+    height:100vh;
+    /*background-color:rgba(0, 0, 0, 0.8);*/
+    display:flex;
+    flex-direction:column;
+    margin-left: 20px;
+}
+.line-2 {
+    height: 100%;
+    background-color: black;
+}
+.line-2 {
+    text-align: center;
+    /*display:flex;*/
+    flex-direction:column;
+    justify-content: space-around;
+}
+.line-2 ul {
+    display:flex;
+    flex-direction:column;
+    height: 100%;
+    justify-content: space-around;
+}
+.line-2 ul li{
+ color:#666;
+ display:inline-block;
+ justify-content: space-between;
+}
+.line-2 ul li:hover {
+    cursor:pointer;
+    color:yellow;
+}
+.new-space {
+    height: 100vh;
+    background-color:red;
+}
+.nwindow-space {
+    height:calc(100vh - 58px);
+    width:100vw;
+    display:flex;
+    background-color:white;
+    align-items: center;
+    justify-content: center;
+}
+.window-status {
+    height:calc(100vh - 30vh);
+    width:calc(100vw - 10vw);
+    border: 2px solid #2a1c2b;
+    justify-content:center;
+    overflow:hidden;
+    position: relative;
+
+}
+.status1 {
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    background-size:cover;
+   
+    background-color:green;
+  
+}
+
+.imagens-status {
+    width:150px;
+    height: 100px;
+    overflow:hidden;
+    background-color:red;
+    align-items: center;
+    justify-content: center;
+}
+.flex {
+    flex:1;
+    display:flex;
+    justify-content: center;
+}
+.image1 {
+height: 100%;
+width:100%;
+justify-content: center;
+align-items: center;
+background-image: url(../image/quemsou.jpg);
+background-size:cover;
+background-position:right top;
+display:none;
+}
+.image2 {
+    height: 100%;
+    background-image: url(../image/oquefazumprogramador.jpg);
+    background-size:cover;
+    display:none;
+    background-position:center top;
+    }
+    .image3 {
+        height: 100%;
+        background-image: url(../image/desafios.jpg);
+        background-size:cover;
+        display:none;
+        background-position:center left;
+        }
+        .image4 {
+            height: 100%;
+            background-image: url(../image/oque\ faco\ da\ vida.webp);
+            background-size:cover;
+            display:none;
+            background-position:center left;
+            }
+            .image5 {
+                height: 100%;
+                background-image: url(../image/futuro.jpg);
+                background-size:cover;
+                background-position:left top;
+                display:none;
+                }
+    h1 {
+        background-color:#0000FF;
+        text-align: center;
+    }
+    .status1 p {
+        font-size: 16px;
+    }
+   
+@media (max-width: 900px) {
+    .container{
+        flex-direction:column;
+        height:calc(100vh - 63px);
+    }
+    .container .left-side{
+        flex:none;
+        padding: 20px 30px;
+        justify-content:center;
+        text-align: center;
+        background-image: none;
+        background-color:#0c4208;
+    }
+    .info{
+        padding:0;
+    }
+    .container .info .name {
+        font-size:10px;
+    }
+    header{
+        position:inherit;
+        background-color:#0c4208;
+    }
+    header .logo {
+        color: #333;
+    }
+    .menu .menu-line {
+        height:2px;
+        background-color:#FFF;
+    }
+    footer {
+        color:#333;
+        font-weight:bold;
+        font-size:12px;
+    }
+    .container .right-side {
+        background-color:#0c4208;
+        flex:1;
+        background-image: url(../image/minha-picture3.jpg);
+        background-size:cover;
+       position:bottom;
+       top:40;
+    }
+    
+    .new-header .menu-line {
+        height: 2px;
+        background-color: black;
+    }
+}
+@media (max-width: 450px) {
+
+    .info .profession{
+        font-size: 15px;
+    }
+    .info .buttons a {
+        padding: 10px 20px;
+        font-size: 10px;
+    }
+    .container .right-side {
+        background-color:#0000FF;
+        flex:1;
+        background-image: url(../image/minha-picture.jpg);
+        background-size:cover;
+       position:center left;
+    }
+   
+   .left_voltar{
+    display:none;
+   }
+   .line-2 {
+    flex:1;
+    background-color:#000;
+}
+
+.imagens-status {
+    width:100px;
+    height: 80px;
+    overflow:hidden;
+    background-color:red;
+}
+
+header .menu {
+    width:20px;
+    height:10px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    cursor:pointer;
+}
+
+}
+
+
+@media (max-width: 390px) {
+    .window-status {
+        height:calc(100vh -20vh);
+        width:calc(100vw - 20vw);
+        border: 2px solid #2a1c2b;
+        justify-content:center;
+        overflow:hidden;
+    
+    }
+    .status1 {
+        height:100%;
+        background-size: cover;
+        overflow:hidden;
+      
+    }
+}
