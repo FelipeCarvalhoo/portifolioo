@@ -83,7 +83,7 @@ header .menu {
 .container .right-side {
     background-color:#0000FF;
     flex:1;
-    background-image: url(image/profile.jpg);
+    background-image: url(image/picture.jpg);
     background-size: cover;
     background-position:right center;
 }
@@ -212,7 +212,7 @@ display: flex;
     justify-content: center;
 }
 .window-status {
-    height:calc(100vh - 30vh);
+    height:auto;
     width:calc(100vw - 10vw);
     border: 2px solid #2a1c2b;
     justify-content:center;
@@ -233,7 +233,6 @@ display: flex;
     width:150px;
     height: 100px;
     overflow:hidden;
-    background-color:red;
     align-items: center;
     justify-content: center;
 }
@@ -325,7 +324,7 @@ display:none;
     .container .right-side {
         
         flex:1;
-        background-image: url(image/profile.jpg);
+        background-image: url(image/picture.jpg);
         background-size:cover;
         background-position: left center;
        top:40;
@@ -348,7 +347,7 @@ display:none;
     .container .right-side {
         background-color:#0000FF;
         flex:1;
-        background-image: url(image/profile.jpg);
+        background-image: url(image/picture.jpg);
         background-size:cover;
        background-position:right center;
     }

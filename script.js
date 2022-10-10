@@ -77,7 +77,7 @@ function nova_tela5() {
     howIam.style.display = 'none';
     imagem5.style.display = 'flex';
 
-    document.querySelector('.status1 .titulo').innerHTML = 'Meus planos para o futuro?'
+    document.querySelector('.status1 .titulo').innerHTML = 'Projetos finalizados'
 
 
 }
