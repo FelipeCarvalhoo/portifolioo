@@ -43,9 +43,11 @@ function nova_tela2() {
     howIam.style.display = 'none';
     imagem2.style.display = 'flex';
 
+    document.querySelector('.window-status').style.border = 'none';
+
 
     document.querySelector('.status1 .titulo').innerHTML = 'O que faz um programador?'
-    document.querySelector('.status1 .first-paragraph').innerHTML = 'O programador trabalha com o desenvolvimento de programas de computador, celular ou outros equipamentos tecnológicos. Por meio de comandos e códigos eles desenvolvem funções de aplicativos, videogames e computadores, a depender de sua área de atuação. É fundamental, portanto, que o programador entenda linguagens como html, java, javascrip, CSS, SQL, dentre outras. <ul>Veja a seguir os principais tipos de programador: <li>Programador web: desenvolve sites e páginas da internet</li> <li>Programador desktop: desenvolve aplicativos e programas para computadores desktop</li> <li>Programador mobile: trabalha na formação de aplicativos para celulares e tablets</li> <li>Programador games: atua na programação de jogos eletrônicos para tablets, celulares, playstation e computadores</li> <li>Programador executivo: coordena o processo de desenvolvimento de programas </li></ul>';
+    document.querySelector('.status1 .first-paragraph').innerHTML = 'O programador trabalha com o desenvolvimento de programas de computador, celular ou outros equipamentos tecnológicos. Por meio de comandos e códigos eles desenvolvem funções de aplicativos, videogames e computadores, a depender de sua área de atuação. É fundamental, portanto, que o programador entenda linguagens como html, java, javascrip, CSS, SQL, dentre outras. <ul>Veja a seguir os principais tipos de programador: <li>Programador web: desenvolve sites e páginas da internet</li> <li>Programador desktop: desenvolve aplicativos e programas para computadores desktop</li> <li>Programador mobile: trabalha na formação de aplicativos para celulares e tablets</li> <li>Programador games: atua na programação de jogos eletrônicos para tablets, celulares, playstation e computadores</li> <li>Programador executivo: coordena o processo de desenvolvimento de programas. </li></ul>';
 }
 function nova_tela3() {
     telaInformacao.style.display = 'flex';
@@ -54,7 +56,9 @@ function nova_tela3() {
     howIam.style.display = 'none';
     imagem3.style.display = 'flex';
 
-    document.querySelector('.status1 .titulo').innerHTML = 'Quais os desafios da área?'
+    document.querySelector('.status1 .titulo').innerHTML = 'Desafios?'
+    document.querySelector('.status1 .first-paragraph').innerHTML = 'Acredito que nada na vida seja fácil, porem tudo e possível para quem e dedicado com foco no que quer alcançar, programar para mim e um pouco desafiador, pois diariamente ha algo de inovador, diariamente aprendo algo novo na linguagem de programação que uso, isso e um desafio para mim, pois é necessário praticar muito, tudo isso faço em meio aos meus afazeres do dia a dia. Sou muito feliz por ser desenvolvedor, quero esta sempre evoluindo nessa área.'
+
 
 
 }
@@ -63,24 +67,14 @@ function nova_tela4() {
     u.style.display = 'none';
     footer.style.display = 'none';
     howIam.style.display = 'none';
-    imagem4.style.display = 'flex';
-
-    document.querySelector('.status1 .titulo').innerHTML = 'O que faz um programador?'
-
-
-
-}
-function nova_tela5() {
-    telaInformacao.style.display = 'flex';
-    u.style.display = 'none';
-    footer.style.display = 'none';
-    howIam.style.display = 'none';
     imagem5.style.display = 'flex';
 
-    document.querySelector('.status1 .titulo').innerHTML = 'Projetos finalizados'
+    document.querySelector('.status1 .titulo').innerHTML = 'Projetos finalizados';
+    document.querySelector('.status1 .first-paragraph').innerHTML = '<ol>Lista de paginas criadas<br><br><li><a href="https://felipecarvalhoo.github.io/Pizzaria/">Projeto para uma pizzaria</a><br><br><li><a href="https://felipecarvalhoo.github.io/devla-cop/">Copia do site da tesla</a><br><br><li><a href="https://felipecarvalhoo.github.io/JsHundred/">Tela de um smart-phone</a></li><br><br><ul>Para ver mais informações acesse meu <a href="https://github.com/FelipeCarvalhoo?tab=repositories">GitHub clicando aqui mesmo</a></ul>';
 
 
 }
+
 function nova_tela() {
     telaInformacao.style.display = 'flex';
     u.style.display = 'none';

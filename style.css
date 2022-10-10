@@ -78,7 +78,7 @@ header .menu {
 
     color:#000;
     background-color:#ccc;
-    font-size:10px;.info .buttons a.light
+    font-size:10px;
 }
 .container .right-side {
     background-color:#0000FF;
@@ -283,7 +283,9 @@ display:none;
         text-align: center;
     }
     .status1 p {
-        font-size: 16px;
+        font-size: 12px;
+        overflow: hidden;
+        text-align:center;
     }
    
 @media (max-width: 900px) {
@@ -349,7 +351,7 @@ display:none;
         flex:1;
         background-image: url(image/picture.jpg);
         background-size:cover;
-       background-position:right center;
+       background-position: center;
     }
    
    .left_voltar{
@@ -378,6 +380,11 @@ header .menu {
 
 }
 
+@media (max-width: 450px) {
+    p {
+        font-size: 8px;
+    }
+}
 
 @media (max-width: 390px) {
     .window-status {
