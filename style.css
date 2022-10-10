@@ -39,7 +39,7 @@ header .menu {
     flex:1;
     display:flex;
     align-items:center;
-    background-color:#0c4208;
+    background-color:#12171f;
 }
 
 
@@ -53,7 +53,7 @@ header .menu {
     font-size:19px;
 }
 .container .info .name {
-    font-size:80px;
+    font-size:60px;
     font-weight: bold;
     margin-top:10px;
     margin-bottom:30px;
@@ -61,9 +61,9 @@ header .menu {
 .info .buttons a {
     display:inline-block;
     background-color: #FFF;
-    color: #709a5c;
+    color: #000;
     padding:20px 40px;
-    font-size:16px;
+    font-size:10px;
     text-decoration:none;
     text-transform:uppercase;
     font-weight:bold;
@@ -77,14 +77,15 @@ header .menu {
 .info .buttons a.light {
 
     color:#000;
-    background-color:#0c4208;
+    background-color:#ccc;
+    font-size:10px;.info .buttons a.light
 }
 .container .right-side {
     background-color:#0000FF;
     flex:1;
     background-image: url(image/profile.jpg);
     background-size: cover;
-    position:center top;
+    background-position:right center;
 }
 footer {
     position:fixed;
@@ -224,8 +225,7 @@ display: flex;
     height:100%;
     overflow:hidden;
     background-size:cover;
-   
-    background-color:green;
+
   
 }
 
@@ -281,7 +281,6 @@ display:none;
                 display:none;
                 }
     h1 {
-        background-color:#0000FF;
         text-align: center;
     }
     .status1 p {
@@ -299,7 +298,7 @@ display:none;
         justify-content:center;
         text-align: center;
         background-image: none;
-        background-color:#0c4208;
+        background-color:#CCC;
     }
     .info{
         padding:0;
@@ -309,7 +308,7 @@ display:none;
     }
     header{
         position:inherit;
-        background-color:#0c4208;
+        background-color:#ccc;
     }
     header .logo {
         color: #333;
@@ -324,7 +323,7 @@ display:none;
         font-size:12px;
     }
     .container .right-side {
-        background-color:#0c4208;
+        
         flex:1;
         background-image: url(image/profile.jpg);
         background-size:cover;
@@ -351,7 +350,7 @@ display:none;
         flex:1;
         background-image: url(image/profile.jpg);
         background-size:cover;
-       position:center left;
+       background-position:right center;
     }
    
    .left_voltar{
