@@ -82,7 +82,7 @@ header .menu {
 .container .right-side {
     background-color:#0000FF;
     flex:1;
-    background-image: url(../image/minha-picture.jpg);
+    background-image: url(image/profile.jpg);
     background-size: cover;
     position:center top;
 }
@@ -247,35 +247,35 @@ height: 100%;
 width:100%;
 justify-content: center;
 align-items: center;
-background-image: url(../image/quemsou.jpg);
+background-image: url(image/quemsou.jpg);
 background-size:cover;
 background-position:right top;
 display:none;
 }
 .image2 {
     height: 100%;
-    background-image: url(../image/oquefazumprogramador.jpg);
+    background-image: url(image/oquefazumprogramador.jpg);
     background-size:cover;
     display:none;
     background-position:center top;
     }
     .image3 {
         height: 100%;
-        background-image: url(../image/desafios.jpg);
+        background-image: url(image/desafios.jpg);
         background-size:cover;
         display:none;
         background-position:center left;
         }
         .image4 {
             height: 100%;
-            background-image: url(../image/oque\ faco\ da\ vida.webp);
+            background-image: url(image/oque\ faco\ da\ vida.webp);
             background-size:cover;
             display:none;
             background-position:center left;
             }
             .image5 {
                 height: 100%;
-                background-image: url(../image/futuro.jpg);
+                background-image: url(image/futuro.jpg);
                 background-size:cover;
                 background-position:left top;
                 display:none;
@@ -326,9 +326,9 @@ display:none;
     .container .right-side {
         background-color:#0c4208;
         flex:1;
-        background-image: url(../image/minha-picture3.jpg);
+        background-image: url(image/profile.jpg);
         background-size:cover;
-       position:bottom;
+        background-position: left center;
        top:40;
     }
     
@@ -349,7 +349,7 @@ display:none;
     .container .right-side {
         background-color:#0000FF;
         flex:1;
-        background-image: url(../image/minha-picture.jpg);
+        background-image: url(image/profile.jpg);
         background-size:cover;
        position:center left;
     }
