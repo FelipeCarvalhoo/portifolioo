@@ -41,8 +41,6 @@ function nova_tela2() {
     howIam.style.display = 'none';
     imagem2.style.display = 'flex';
 
-    document.querySelector('.window-status').style.border = 'none';
-
 
     document.querySelector('.status1 .titulo').innerHTML = 'O que faz um programador?'
     document.querySelector('.status1 .first-paragraph').innerHTML = 'O programador trabalha com o desenvolvimento de programas de computador, celular ou outros equipamentos tecnológicos. Por meio de comandos e códigos eles desenvolvem funções de aplicativos, videogames e computadores, a depender de sua área de atuação. É fundamental, portanto, que o programador entenda linguagens como html, java, javascrip, CSS, SQL, dentre outras. <ul>Veja a seguir os principais tipos de programador: <li>Programador web: desenvolve sites e páginas da internet</li> <li>Programador desktop: desenvolve aplicativos e programas para computadores desktop</li> <li>Programador mobile: trabalha na formação de aplicativos para celulares e tablets</li> <li>Programador games: atua na programação de jogos eletrônicos para tablets, celulares, playstation e computadores</li> <li>Programador executivo: coordena o processo de desenvolvimento de programas. </li></ul>';

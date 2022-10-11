@@ -289,10 +289,9 @@ display:none;
         text-align: center;
     }
     .status1 p {
-        font-size: 12px;
+        font-size: 20px;
         overflow: hidden;
         text-align:center;
-        border: 2px solid #2a1c2b;
         margin-top: 20px;
     }
    
@@ -344,6 +343,9 @@ display:none;
         height: 2px;
         background-color: black;
     }
+    .status1 p {
+        font-size: 17px;
+    }
 }
 @media (max-width: 450px) {
 
@@ -386,12 +388,9 @@ header .menu {
     cursor:pointer;
 }
 
-}
-
-@media (max-width: 450px) {
-    p {
-        font-size: 8px;
-    }
+.status1 p {
+    font-size: 15px;
+    
 }
 
 @media (max-width: 390px) {
@@ -407,5 +406,8 @@ header .menu {
         background-size: cover;
         overflow:hidden;
       
+    }
+    .status1 p {
+        font-size: 12px;
     }
 }
