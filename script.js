@@ -31,8 +31,6 @@ function nova_tela1() {
     howIam.style.display = 'flex';
     imagem1.style.display = 'flex';
 
-
-    document.querySelector('.status1 .titulo').innerHTML = 'Quem sou?'
     document.querySelector('.first-paragraph').innerHTML = "Ola, me nome e Felipe, moro em Palmas, tocantins. Estudo desenvolvimento front-end, sou apaixonado por tecnologia, meu sonho e tornar-me um programador full-stack completo. Sempre tive o desejo de ser uma pessoa colaborativa, tenho grande desejo de ajudar as pessoas, vi na tecnologia essa oportunidade, a tecnologia e uma poderosa ferramenta que pode beneficiar todas as pessoas do mundo, acredito que ela nunca deixara de ser aprimorada, meu desejo e usar meus conhecimentos para beneficiar a comunidade, empresas e qualquer tipo de instituição com o desenvolvimento de sites, aplicativos ou sistemas."
 }
 
