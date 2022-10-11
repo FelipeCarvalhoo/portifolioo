@@ -1,3 +1,8 @@
+@keyframes image {
+    0% { background-image:url(image/picture.jpg); background-position:left;}
+    50%  { background-image:url(image/codigos.jpg); background-position:right;}
+    100% { background-image:url(image/picture.jpg); background-position:left;}
+}
 body,html {
    width:100%;
     height:100%;
@@ -83,7 +88,9 @@ header .menu {
 .container .right-side {
     background-color:#0000FF;
     flex:1;
-    background-image: url(image/picture.jpg);
+    animation-name: image;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
     background-size: cover;
     background-position:right center;
 }
@@ -214,7 +221,6 @@ display: flex;
 .window-status {
     height:auto;
     width:calc(100vw - 10vw);
-    border: 2px solid #2a1c2b;
     justify-content:center;
     overflow:hidden;
     position: relative;
@@ -286,6 +292,8 @@ display:none;
         font-size: 12px;
         overflow: hidden;
         text-align:center;
+        border: 2px solid #2a1c2b;
+        margin-top: 20px;
     }
    
 @media (max-width: 900px) {
@@ -390,7 +398,6 @@ header .menu {
     .window-status {
         height:calc(100vh -20vh);
         width:calc(100vw - 20vw);
-        border: 2px solid #2a1c2b;
         justify-content:center;
         overflow:hidden;
     
