@@ -64,9 +64,10 @@ function nova_tela4() {
     footer.style.display = 'none';
     howIam.style.display = 'none';
     imagem5.style.display = 'flex';
+    
 
     document.querySelector('.status1 .titulo').innerHTML = 'Projetos finalizados';
-    document.querySelector('.status1 .first-paragraph').innerHTML = '<ol>Lista de paginas criadas<br><br><li><a href="https://felipecarvalhoo.github.io/Pizzaria/">Projeto para uma pizzaria</a><br><br><li><a href="https://felipecarvalhoo.github.io/devla-cop/">Copia do site da tesla</a><br><br><li><a href="https://felipecarvalhoo.github.io/JsHundred/">Tela de um smart-phone</a></li><br><br><ul>Para ver mais informações acesse meu <a href="https://github.com/FelipeCarvalhoo?tab=repositories">GitHub clicando aqui mesmo</a></ul>';
+    document.querySelector('.status1 .first-paragraph').innerHTML = '<ol>Lista de paginas criadas<br><br><li><a href="https://felipecarvalhoo.github.io/Pizzaria/">Projeto para uma pizzaria</a><br><br><li><a href="https://felipecarvalhoo.github.io/devla-cop/">Copia do site da tesla</a><br><br><li><a href="https://felipecarvalhoo.github.io/JsHundred/">Tela de um smart-phone</a></li><br><li><a href="https://felipecarvalhoo.github.io/Urna-eletronica/">Urna eletronica</a></li><br><br><ul>Para ver mais informações acesse meu <a href="https://github.com/FelipeCarvalhoo?tab=repositories">GitHub clicando aqui mesmo</a></ul>';
 
 
 }
