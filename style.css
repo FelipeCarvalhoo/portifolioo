@@ -1,9 +1,9 @@
 @keyframes image {
-    0% { background-image:url(image/picture.jpg); background-position:center;}
+    0% { background-image:url(image/telaDeumSmart.jpg); background-position:center;}
     25%  { background-image:url(image/telaDeumSmart.jpg); background-position:center;}
     50%  { background-image:url(image/pizzas.jpg); background-position:center;}
     75%  { background-image:url(image/tesla.jpg); background-position:center;}
-    100% { background-image:url(image/picture.jpg); background-position:center;}
+    100% { background-image:url(image/tesla.tesla.jpg); background-position:center;}
 }
 body,html {
    width:100%;
